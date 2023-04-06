@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoruotine(SpawnTarget());
+        StartCoroutine(SpawnTarget());
     }
 
     // Update is called once per frame
@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator SpawnTarget()
     {
-        yield return new WaitForSecond(spawnRate);
+        yield return new WaitForSeconds(spawnRate);
         int index = Random.Range(0, targets.Count);
         Instantiate(targets[index]);
     }
