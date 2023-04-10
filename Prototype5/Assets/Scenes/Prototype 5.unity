@@ -275,7 +275,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: :H :E :L :P
+  m_text: Score
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -755,6 +755,7 @@ MonoBehaviour:
   - {fileID: 2737271831683801878, guid: 0a623e168c3f44d9186b84ecd83463ed, type: 3}
   - {fileID: 1924501225010969947, guid: ab01fca19ed3143e2ad8862347e93f94, type: 3}
   - {fileID: 5538396295459652231, guid: 719c0980de8a2499d9f273fb8f63e134, type: 3}
+  scoreText: {fileID: 249450280}
 --- !u!4 &1283177102
 Transform:
   m_ObjectHideFlags: 0
